@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.edit-btn{
+    @apply  rounded-xl py-1 px-3 ;
+    font-size: xx-small;
+    background-color: #F0EFFA;
+}
+.profile-block{
+    @apply  py-2 px-3 my-2 ;
+    border-radius: 4.444px;
+    border: 0.889px solid var(--input-box-stroke-thin, rgba(0, 0, 0, 0.15));
+    box-shadow: 0px 1.7777777910232544px 1.7777777910232544px 0px rgba(0, 0, 0, 0.10);
+}
+.profile-desc{
+    color: var(--inactive-state-color, rgba(73, 69, 79, 0.80));
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'dlig' on;
+    font-family: Outfit;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.107px; 
+}
